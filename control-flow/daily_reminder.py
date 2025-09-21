@@ -2,8 +2,8 @@
 
 # Prompt for a Single Task
 task = input("Enter your task: ")
-priority = input("Enter the priority level (high, medium, low): ").strip().lower()
-time_bound = input("Is the task time-bound? (yes/no): ").strip().lower()
+priority = input("Priority (high, medium, low): ").strip().lower()
+time_bound = input("Is it time-bound? (yes/no): ").strip().lower()
 
 # Process the Task Based on Priority
 match priority:
@@ -18,7 +18,7 @@ match priority:
 
 # Modify message if task is time-bound
 if time_bound == "yes":
-    reminder += " This requires immediate attention today!"
+    reminder += " that requires immediate attention today!"
 
 # Provide a Customized Reminder
 print(reminder)
