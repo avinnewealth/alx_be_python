@@ -3,7 +3,7 @@ num2 = int(input("Enter the second number:"))
 operation = input("Choose the operation (+, -, *, /):").strip()
 
 
-match opr:
+match operation:
     case "+":
         result = num1 + num2
         print(f"The reuslt is  {result}")
