@@ -2,7 +2,7 @@
 
 # Prompt for a Single Task
 task = input("Enter your task: ")
-priority = input("Priority (high, medium, low): ").strip().lower()
+priority = input("Priority (high/medium/low): ").strip().lower()
 time_bound = input("Is it time-bound? (yes/no): ").strip().lower()
 
 # Process the Task Based on Priority
