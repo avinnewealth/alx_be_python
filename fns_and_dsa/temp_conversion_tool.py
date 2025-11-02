@@ -30,7 +30,7 @@ if temp_value.replace('.', '', 1).isdigit():
         print("Please enter a valid unit! Use 'C' for Celsius or 'F' for Fahrenheit.")
 
 else:
-    print("Invalid input! Please enter a numeric value.")
+    print("Invalid temperature. Please enter a numeric value.")
 
 
 
