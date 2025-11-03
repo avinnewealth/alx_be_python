@@ -28,12 +28,12 @@ class BankAccount:
          print(f"Current Balance: ${self.account_balance:.2f}")    
 
 
-account1= BankAccount(100)
+# account1= BankAccount(100)
 
-account1.deposit(10)
-account1.display_balance()
-account1.withdraw(5)
-account1.display_balance()
+# account1.deposit(10)
+# account1.display_balance()
+# account1.withdraw(5)
+# account1.display_balance()
 
 
     # def deposit(self, amount):
